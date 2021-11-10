@@ -57,6 +57,7 @@ export default{
          title:this.form.title,
          isDone:false
       })
+      this.form.title=''
     },
     deleteTodo(todo){
       console.log("Deleted");
